@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+body,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
