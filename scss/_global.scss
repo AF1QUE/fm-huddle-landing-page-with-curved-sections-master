@@ -5,16 +5,28 @@
 }
 
 body,
-p {
+p,
+a {
+  font-size: 13px;
   font-family: "Open Sans", sans-serif;
+  color: $veryDarkCyan;
 }
 
 h1 {
   font-size: 36px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  color: $veryDarkCyan;
 }
 
 h2 {
-  @extend h1;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: $veryDarkCyan;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
 }

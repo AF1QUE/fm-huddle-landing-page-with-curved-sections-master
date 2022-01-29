@@ -1,0 +1,36 @@
+.btn {
+  display: inline-block;
+  color: $pink;
+  padding: 5px 20px;
+  border: 1px solid $pink;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px 0px rgba(254, 82, 191, 0.3);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(254, 82, 191, 0.3);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(254, 82, 191, 0.3);
+
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
+
+.btn--big {
+  display: inline-block;
+  color: white;
+  background-color: $pink;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 80px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    background-color: lighten($pink, 5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+}
