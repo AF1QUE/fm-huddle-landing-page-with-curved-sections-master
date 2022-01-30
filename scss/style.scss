@@ -39,3 +39,46 @@
     width: 760.109px;
   }
 }
+
+.stats {
+  .container {
+    @include flexLayout(row, space-evenly, flex-start);
+    padding: 100px 0px;
+  }
+  .stat {
+    @include flexLayout(column, center, center);
+    &__icon {
+      width: 45px;
+    }
+
+    &__counter {
+      font-size: 70px;
+      font-weight: 700;
+    }
+
+    &__title {
+      font-size: 18px;
+    }
+  }
+}
+
+.features {
+  .container {
+  }
+
+  .feature {
+    @include flexLayout(row, space-between, center);
+    padding: 100px 0px;
+
+    &__img {
+      width: 400px;
+    }
+
+    &__desc {
+      margin-top: 15px;
+      max-width: 420px;
+    }
+  }
+}
+
+@import "responsive";
