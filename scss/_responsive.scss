@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
   .container {
     display: none;
-    max-width: 100vw;
+    width: 325px;
     margin: 0px auto;
     padding: 0px 25px;
   }
@@ -26,6 +26,10 @@
     .container {
       @include flexLayout(column, center, center);
       padding-top: 100px;
+    }
+
+    &__title {
+      text-align: center;
     }
 
     &__desc {
